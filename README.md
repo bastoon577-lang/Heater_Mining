@@ -49,4 +49,20 @@ officielle en vue de créer l'image par vous même en suivant [cette procédure]
 Il ne reste qu'à positionner la configuration du thermostat au travers de l'interface WEB du Mineur en suivant ce [tuto de configurations thermostat](https://github.com/bastoon577-lang/Heater_Mining/wiki/Interractions-avec-le-script-de-monitoring#param%C3%A9trage-du-monitoring)
 avec les paramètres Tuya pouvant être extraient en suivant ce [tuto d'extraction de paramètres](https://github.com/bastoon577-lang/Heater_Mining/wiki/Obtenir-les-informations-du-thermostat).
 
+## Paramétrer le Mineur (stratum)
+
+La construction du mineur étant terminée, il est maintenant nécessaire de le configurer comme vous le feriez sans l'intégration du concept de Heater_Mining :
+ * Pools (Configuration -> Pools),
+ * Performances (facultatif),
+ * Température & Fans (facultatif).
+
+Un test de minage est alors possible par l'onglet **Quick Actions** :
+ * START BOSminer
+ * STOP BOSminer
+ * ...
+
+## Utilisation du **custom_monitor**
+
+L'utilisation du `custom_monitor` est directement accessible dans l'interface WEB (System -> Log) au travers de [cette procédure](https://github.com/bastoon577-lang/Heater_Mining/wiki/Interractions-avec-le-script-de-monitoring).
+
 ###### Auteur : *Sébastien DALIGAULT*. 
