@@ -9,6 +9,12 @@ Transformation d'un Mineur S9 Antminer en chauffage de l'habitat autonome au tra
 J'ai souhaité développer un système de chauffage par l'intermédiaire d'un mineur de crypto-monnaie piloté 
 en température au travers d'un thermostat connecté dont le principe de fonctionnement est décrit [ici](https://github.com/bastoon577-lang/Heater_Mining/wiki#principe-de-fonctionnement).
 
+## Concept
+
+Les mineurs de cryptomonaies utilisent des cartes de hashage permettant la validation des transactions au sein de la blockchain. Gourmant en énergie, 
+ces équippements dissipent de la chaleur par leurs activitées de minage. L'objectif de ce projet est de permettre de chauffer l'habitat par une boucle d'asservissement
+en utilisant un thermostat connecté au sein du réseau Local Area Network (LAN).
+
 ## Matériel nécessaire
 
 La liste détaillée du matériel est décrite [ici](https://github.com/bastoon577-lang/Heater_Mining/wiki#choix-du-mat%C3%A9riel):
@@ -16,7 +22,7 @@ La liste détaillée du matériel est décrite [ici](https://github.com/bastoon5
  * Un thermostat connecté
  * Une carte MicroSD
 
-## Tansformer le Mineur en chauffage
+## Tansformer le Mineur
 
 > ⚠️ **ATTENTION** au boot du S9 sur carte SD.
 >
