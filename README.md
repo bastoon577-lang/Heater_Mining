@@ -28,6 +28,22 @@ La liste détaillée du matériel est décrite [ici](https://github.com/bastoon5
 >
 > Il est nécessaire de persuader le mineur de booter sur la carte SD en suivant cette [procédure](https://academy.braiins.com/en/braiins-os/installation/install/#install-braiins-os-on-s9-s9i-s9j) tout en prenant soin d'intégrer une image spéciphique de ce repo.
 
+J'expose 2 voies pour permettre la transformation du Mineur Antminer S9.
+ 1. [Utilisation de l'image pre-compilée](#reuse) (Mode débutant)
+ 2. [Re-construction d'une image custom](#diy) (Mode expert)
+
+<div id='reuse'/>
+ 
+### Utilisation de l'image pre-compilée
+
+Je met à disposition une [image pre-compilée disponible sur mon drive](https://drive.google.com/drive/folders/1-P7-u0t1UEWt9rnBm152xv2MaqvQLXVr) que vous pouvez immédiatement charger avec Rufus en suivant la [procédure de flashage](https://rufus.ie/fr/). 
+
+Cette image embarque tout le nécessaire à l'exploitation du mineur sur le réseau et possède son service SSH fermé par sécurité, il reste néanmoins nécessaire de paramétrer le Module TIC sur le Mineur en suivant cette [procédure](#parameters).
+
+<div id='diy'/>
+
+### Re-construction d'une image custom
+
 La re-construction consiste à générer l'image custom pas à pas à partir d'une image 
 officielle en vue de créer l'image par vous même en suivant [cette procédure](https://github.com/bastoon577-lang/Heater_Mining/wiki/Re%E2%80%90construction-d'une-image-custom), puis d'effectuer la configuration du thermostat sur le Mineur en suivant cette [procédure](#parameters).
 
