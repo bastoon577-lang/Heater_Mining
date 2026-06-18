@@ -38,7 +38,7 @@ J'expose 2 voies pour permettre la transformation du Mineur Antminer S9.
 
 Je met à disposition une [image pre-compilée disponible sur mon drive](https://drive.google.com/drive/folders/1-P7-u0t1UEWt9rnBm152xv2MaqvQLXVr) que vous pouvez immédiatement charger avec Rufus en suivant la [procédure de flashage](https://rufus.ie/fr/). 
 
-Cette image embarque tout le nécessaire à l'exploitation du mineur sur le réseau et possède son service SSH fermé par sécurité, il reste néanmoins nécessaire de paramétrer le Module TIC sur le Mineur en suivant cette [procédure](#parameters).
+Cette image embarque tout le nécessaire à l'exploitation du mineur sur le réseau et possède son service SSH fermé par sécurité, il reste néanmoins nécessaire de paramétrer le Thermostat sur le Mineur en suivant cette [procédure](#parameters).
 
 <div id='diy'/>
 
